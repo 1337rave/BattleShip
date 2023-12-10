@@ -41,7 +41,7 @@ void explosion(Ships* characteristic, int ship_pos[12][24], int plus, int& end) 
 				if (ship_pos[i][r] == n) 
 				{
 					alive = true; 
-					i = 11; 
+					i = 11; //змінюємо значення змінної, щоб вийти з циклу
 					break; 
 				}
 			}
